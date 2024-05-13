@@ -1,0 +1,209 @@
+p {
+    direction: rtl;
+  }
+
+* {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+header {
+    height: 100vh;
+    position: relative;
+    background: url(./image/2.jpg)center center/cover no-repeat;
+}
+header img {
+    width: 90px;
+    margin-left: 100px;
+}
+header img:hover {
+   width: 150px;
+}
+ul {
+    list-style: none;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+a {
+    text-decoration: none;
+    margin: 20px 15px;
+    color:azure;
+    font-weight: bolder;
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header ul li a:hover{
+    border-bottom: 2px solid orange;
+    border-radius: 15px;
+}
+#content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+}
+span {
+    color: orange;
+}
+.btn  {
+    border: 2px solid orange;
+    padding: 15px 15px;
+    border-radius: 25px;   
+}
+.btn:hover {
+    background-color: rgb(4, 45, 116);
+    text-decoration: underline rgb(50, 200, 246);
+}
+.btn-2 {
+    color:rgba(205, 78, 19, 0.843);
+    font-weight: bolder;
+  
+}
+h2 , h3 , h4{
+    color: azure;
+}
+header::before {
+    content: "";
+    background-color: rgb(0,0,0,0.6);
+    position: absolute;
+    top 0px
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+header * {
+    z-index: 10;
+}
+ .container {
+    background-color: rgb(254, 249, 235);
+    max-width: 1000px;
+    margin: auto;
+ }
+ .container .title{
+    text-align: center;
+    margin-bottom: 2rem;
+ }
+ #about .about-contant {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 2rem;
+    color:rgb(20, 143, 220);;
+   font-weight: bold;
+   justify-content: center;
+ }
+ #p1 {
+    color: rgb(20, 143, 220);;
+    font-weight: bolder;
+ }
+
+ #container11 .all{
+    background: url(./image/AHLY\ WORLD\ CUP.jpg)center center/cover no-repeat ;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position:relative
+    
+ }
+ #img1 img {
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    border: 2px dashed white;
+    border-radius: 15px;
+ }
+ #img2 img {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed white;
+    border-radius: 15px;
+
+ }
+ #img3 img {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    border: 2px dashed white;
+  border-radius: 15px;
+ }
+h5{
+   text-align: center;
+   color: azure;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 15px;
+ margin-top: 30px;
+ margin-left: 20px;
+   
+ }
+ table {
+    border: 3px solid wheat;
+    border-radius: 20px;
+     text-align: center;
+
+ }
+ table tr {
+   background-color: rgb(214, 233, 255);
+   color:rgb(20, 143, 220);
+   font-weight: bold;
+ }
+ td {
+    text-align: center;
+    color: rgb(4, 47, 47);
+
+ }
+ #container22{
+    max-width: 1000px;
+    margin: auto;
+ }
+ table {
+    width: 1000px;
+    margin: auto;
+ }
+ #container22  {
+
+    align-items: center;
+    justify-content: center;
+ 
+    
+ }
+  #container11 .all::before {
+    content: "";
+    background-color: rgb(0,0,0,0.6);
+    position: absolute;
+    top 0px
+    left: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+#dd h1 {
+    align-items: center;
+    color: azure;
+    text-align: center;
+}
+#dd table tr td{
+  
+    background-color: rgb(244, 240, 234);
+    color:rgb(20, 143, 220);
+}
+#dd table tr {
+    flex-direction: row-reverse;
+}
+#container22 h1 {
+    align-items: center;
+    color: azure;
+    text-align: center;
+    padding-top: 10px;
+}
+body section {
+    background-color: rgb(15, 105, 161);
+    width: 100%;
+}
